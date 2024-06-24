@@ -8,7 +8,7 @@ Dengan memanfaatkan analisis data dan model prediksi, institusi dapat mengidenti
 Permasalahan bisnis yang dihadapi Jaya Jaya Institut adalah tingginya tingkat siswa yang tidak menyelesaikan pendidikan alias dropout. Hal ini berdampak negatif pada reputasi institusi, kepuasan siswa, serta keberlanjutan operasional dan finansial. Tingkat dropout yang tinggi mencerminkan adanya masalah dalam manajemen siswa, dukungan akademik, dan bimbingan yang diberikan, yang pada akhirnya mengurangi jumlah lulusan yang berhasil dan mempengaruhi citra institusi secara keseluruhan.
 
 ### Cakupan Proyek
-- Melakukan cleansing data pada data target dengan keterangan "Enrolled"
+- Melakukan cleansing data pada data target dengan keterangan `Enrolled`
 - Melakukan analisis dan penggalian informasi mengenai `Status` dari dataset yang disediakan
 - Melakukan exploratory data analysis dan memilih feature important yang berpengaruh terhadap `Status Performance dari Students`
 - Membuat model machine learing untuk memprediksi apakah student tersebut Dropout atau tidak. Model yang digunakan adalah CatBoost Classifier
