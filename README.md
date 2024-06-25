@@ -11,7 +11,7 @@ Permasalahan bisnis yang dihadapi Jaya Jaya Institut adalah tingginya tingkat si
 - Melakukan cleansing data pada data target dengan keterangan `Enrolled`
 - Melakukan analisis dan penggalian informasi mengenai `Status` dari dataset yang disediakan
 - Melakukan exploratory data analysis dan memilih feature important yang berpengaruh terhadap `Status Performance dari Students`
-- Membuat model machine learing untuk memprediksi apakah student tersebut Dropout atau tidak. Model yang digunakan adalah CatBoost Classifier
+- Membuat model machine learing untuk memprediksi apakah student tersebut Dropout atau tidak. Model yang digunakan adalah `Random Forest Classifier`
 - Menguji model yang telah dilatih menggunakan data dummy yang di input langsung
 - Membuat dashboard dari analisis yang sudah dikerjakan
 
@@ -20,7 +20,7 @@ Permasalahan bisnis yang dihadapi Jaya Jaya Institut adalah tingginya tingkat si
 Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/data.csv
 
 #### Setup environment:
-1. Buka Folder submission di Visual Studio Code
+1. Buka Folder final_submission di Visual Studio Code
 2. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
 Di terminal, Anda dapat membuat virtual environment (venv) menggunakan perintah berikut:
 ```
@@ -55,11 +55,23 @@ Link Dashboard: https://public.tableau.com/views/DashboardStudentStatus/Dashboar
 
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
-
+Cara menjalankan prototype sistem machine learning yang telah dibuat sebagai berikut:
+1. Jalankan langkah-langkah Setup environment diatas terlebih dahulu.
+2. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
+Di terminal, jalankan perintah berikut:
 ```
-
+python submission2.py
 ```
+3. Kemudian tunggu sampai muncul akurasi dan classification report dari model yang telah dibuat
+4. Setelah itu, jalankan perintah tersebut:
+```
+streamlit run app.py
+```
+5. Jika belum sign in di website `Streamlit`, lakukan sign in terlebih dahulu dengan akun google/email masing-masing dan koneksikan ke akun github.
+6. Kemudian masukkan email yang telah di sign in di akun streamlit kedalam terminal Visual Studio Code kembali.
+8. Jika sudah login sebelumnya, secara otomatis akan membuka app yang telah dibuat di streamlit, dengan tampilan seperti berikut:
+![image](https://github.com/rhisadkaptri/Dicoding2/assets/76622802/bf11167d-78f6-451f-894e-8488f72aa7fe)
+Link Streamlit: https://rhisadkaptri-jmnsuappqmdzsrdnd3tdkxz.streamlit.app/
 
 ## Conclusion
 Berdasarkan analisis yang telah dilakukan, feature yang paling berpengaruh adalah:
