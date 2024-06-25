@@ -12,7 +12,7 @@ Permasalahan bisnis yang dihadapi Jaya Jaya Institut adalah tingginya tingkat si
 - Melakukan analisis dan penggalian informasi mengenai `Status` dari dataset yang disediakan
 - Melakukan exploratory data analysis dan memilih feature important yang berpengaruh terhadap `Status Performance dari Students`
 - Membuat model machine learing untuk memprediksi apakah student tersebut Dropout atau tidak. Model yang digunakan adalah `Random Forest Classifier`
-- Menguji model yang telah dilatih menggunakan data dummy yang di input langsung
+- Membangun sistem deteksi apakah student tersebut Dropout atau tidak dari beberapa feature important yang telah ditentukan menggunakan prototype `Streamlit`
 - Membuat dashboard dari analisis yang sudah dikerjakan
 
 ### Persiapan
