@@ -69,9 +69,10 @@ streamlit run app.py
 ```
 5. Jika belum sign in di website `Streamlit`, lakukan sign in terlebih dahulu dengan akun google/email masing-masing dan koneksikan ke akun github.
 6. Kemudian masukkan email yang telah di sign in di akun streamlit kedalam terminal Visual Studio Code kembali.
-8. Jika sudah login sebelumnya, secara otomatis akan membuka app yang telah dibuat di streamlit, dengan tampilan seperti berikut:
-![image](https://github.com/rhisadkaptri/Dicoding2/assets/76622802/bf11167d-78f6-451f-894e-8488f72aa7fe)
+8. Jika sudah login sebelumnya, secara otomatis akan membuka app yang telah dibuat di streamlit,
 Link Streamlit: https://rhisadkaptri-jmnsuappqmdzsrdnd3tdkxz.streamlit.app/
+Tampilannya seperti berikut:
+![image](https://github.com/rhisadkaptri/Dicoding2/assets/76622802/bf11167d-78f6-451f-894e-8488f72aa7fe)
 
 ## Conclusion
 Berdasarkan analisis yang telah dilakukan, feature yang paling berpengaruh adalah:
