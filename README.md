@@ -17,7 +17,7 @@ Permasalahan bisnis yang dihadapi Jaya Jaya Institut adalah tingginya tingkat si
 
 ### Persiapan
 
-Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/data.csv
+Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding2/main/data.csv
 
 #### Setup environment:
 1. Buka Folder final_submission di Visual Studio Code
